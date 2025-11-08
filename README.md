@@ -33,6 +33,8 @@ An interactive cross-section viewer for the 10-vertex embedding.
 The program uses **Matplotlib** to display slices of the model along any user-defined plane.
 
 **Requirements**
+
+The requirements are listed in `requirement.txt`
 ```bash
 python >= 3.8
 numpy >= 1.23.0
@@ -40,6 +42,8 @@ matplotlib >= 3.6.0
 ```
 
 **Usage**
+
+To run this program, first download the python file to your local machine where the above python environment is installed with the required packages. Then, in your terminal, navigate to the directory containing the python file and run the following script:
 ```bash
 python 10-vertex-slicer.py
 ```
@@ -51,6 +55,8 @@ An interactive cross-section viewer for the 12-vertex embedding.
 Functions identically to the 10-vertex version but loads the 12-vertex model.
 
 **Requirements**
+
+The requirements are listed in `requirement.txt`
 ```bash
 python >= 3.8
 numpy >= 1.23.0
@@ -58,6 +64,8 @@ matplotlib >= 3.6.0
 ```
 
 **Usage**
+
+To run this program, first download the python file to your local machine where the above python environment is installed with the required packages. Then, in your terminal, navigate to the directory containing the python file and run the following script:
 ```bash
 python 12-vertex-slicer.py
 ```
