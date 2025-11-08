@@ -35,8 +35,8 @@ The program uses **Matplotlib** to display slices of the model along any user-de
 **Requirements**
 ```bash
 python >= 3.8
-numpy == 1.23.0
-matplotlib == 3.6.0
+numpy >= 1.23.0
+matplotlib >= 3.6.0
 ```
 
 **Usage**
@@ -53,8 +53,8 @@ Functions identically to the 10-vertex version but loads the 12-vertex model.
 **Requirements**
 ```bash
 python >= 3.8
-numpy
-matplotlib
+numpy >= 1.23.0
+matplotlib >= 3.6.0
 ```
 
 **Usage**
