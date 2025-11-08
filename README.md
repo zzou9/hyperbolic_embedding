@@ -34,7 +34,7 @@ The program uses **Matplotlib** to display slices of the model along any user-de
 
 **Requirements**
 
-The requirements are listed in `requirement.txt`
+The requirements are listed in `requirements.txt`
 ```bash
 python >= 3.8
 numpy >= 1.23.0
@@ -56,7 +56,7 @@ Functions identically to the 10-vertex version but loads the 12-vertex model.
 
 **Requirements**
 
-The requirements are listed in `requirement.txt`
+The requirements are listed in `requirements.txt`
 ```bash
 python >= 3.8
 numpy >= 1.23.0
