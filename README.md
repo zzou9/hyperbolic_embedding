@@ -1,25 +1,78 @@
 # Hyperbolic Origami 2-Torus Visualizer
 
-This repository contains accompanying programs that visualizes the two approximating embeddings of hyperbolic 2-tori in the Klein model of hyperbolic 3-space. The results can be found from the [paper](https://arxiv.org/abs/2509.18668) "Vertex-minimal hyperbolic origami 2-torus."
-
-The 10-vertex model is based on one of the 865 isomorphism classes of combinatorial vertex-minimal triangulations. The 12-vertex model is based on a 7-regular triangulation of the genus-2 surface. It has 2-fold rotational symmetry around the z-axis that is a hyperelliptic involution. One can group the 12 vertices into six pairs, and the hyperellptic involution acts by transpositions on each of the six pairs, fixing the midpoint of the edges connecting each pair of vertices. 
-
-Below are the descriptions of the corresponding scripts:
+This repository contains visualization programs for two approximating embeddings of **hyperbolic 2-tori** in the **Klein model** of hyperbolic 3-space.  
+These results accompany the paper [*Vertex-minimal hyperbolic origami 2-torus*](https://arxiv.org/abs/2509.18668).
 
 ---
 
-### 2-torus-10-vertices.nb
+## Overview
 
-A Mathematica notebook that displays the 10-vertex example in the Klein model. 
+- **10-vertex model** – Derived from one of the 865 isomorphism classes of combinatorial vertex-minimal triangulations.  
+- **12-vertex model** – Constructed from a 7-regular triangulation of a genus-2 surface.  
+  This model exhibits a **2-fold rotational symmetry** about the *z-axis*, corresponding to the **hyperelliptic involution**.  
+  The 12 vertices can be grouped into six pairs; the involution acts by transposing each pair and fixes the midpoint of the connecting edge.
 
-### 2-torus-12-vertices.nb
+---
 
-A Mathematica notebook that displays the 12-vertex example in the Klein model. 
+## Repository Contents
 
-### 10-vertex-slicer.py
+### Mathematica Visualizations
 
-A python script that implements an interactive visualization program based on python's matplotlib library. It displays a cross-section of the 10-vertex embedding with respect to any plane that the user specifies. To run the script, download to the local device and run it in the terminal with a python environment, numpy, and matplotlib installed. Then, open a terminal and run the following prompt: python 10-vertex-slicer.py
+#### `2-torus-10-vertices.nb`
+Visualizes the **10-vertex embedding** of the 2-torus in the Klein model.  
 
-### 12-vertex-slicer.py
+#### `2-torus-12-vertices.nb`
+Visualizes the **12-vertex embedding** of the 2-torus in the Klein model.  
 
-A python script that implements an interactive visualization program based on python's matplotlib library. It displays a cross-section of the 12-vertex embedding with respect to any plane that the user specifies. To run the script, download to the local device and run it in the terminal with a python environment, numpy, and matplotlib installed. Then, open a terminal and run the following prompt: python 10-vertex-slicer.py
+---
+
+### Python Visualization Tools
+
+#### `10-vertex-slicer.py`
+An interactive cross-section viewer for the 10-vertex embedding.  
+The program uses **Matplotlib** to display slices of the model along any user-defined plane.
+
+**Requirements**
+```bash
+python >= 3.8
+numpy == 1.23.0
+matplotlib == 3.6.0
+```
+
+**Usage**
+```bash
+python 10-vertex-slicer.py
+```
+
+---
+
+#### `12-vertex-slicer.py`
+An interactive cross-section viewer for the 12-vertex embedding.  
+Functions identically to the 10-vertex version but loads the 12-vertex model.
+
+**Requirements**
+```bash
+python >= 3.8
+numpy
+matplotlib
+```
+
+**Usage**
+```bash
+python 12-vertex-slicer.py
+```
+
+---
+
+## Citation
+
+If you use this code or visualizations in your work, please cite the associated paper:
+
+> Z. Zou, “Vertex-minimal hyperbolic origami 2-torus,” *arXiv preprint* [arXiv:2509.18668](https://arxiv.org/abs/2509.18668), 2025.
+
+---
+
+## License
+
+This project is released under the **MIT License**.  
+See [`LICENSE`](./LICENSE) for details.
