@@ -69,10 +69,3 @@ python 12-vertex-slicer.py
 If you use this code or visualizations in your work, please cite the associated paper:
 
 > Z. Zou, “Vertex-minimal hyperbolic origami 2-torus,” *arXiv preprint* [arXiv:2509.18668](https://arxiv.org/abs/2509.18668), 2025.
-
----
-
-## License
-
-This project is released under the **MIT License**.  
-See [`LICENSE`](./LICENSE) for details.
